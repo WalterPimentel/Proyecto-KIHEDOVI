@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
 
-from .declarative_base import Base
+from declarative_base import Base
 
 class Equipo(Base):
     __tablename__="equipo"
